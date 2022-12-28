@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;   /*para que no haya ningun espacio*/
+}
+
+body{
+    background-image: url("/imagenes/imagen3.jfif");  /* insertar imagen */
+    background-size: cover; /* para que salga completa la imagen*/
+    background-repeat: no-repeat; /* para que no se repita la imagen */
+}
+
+.contenedor{ /*llamar a la clase contenedor*/
+  /*  background-color: rgb(18, 233, 186); /*color del fondo*/
+    width: 100vw;  /* para el ancho */
+    height: 100vh; /* para altura */
+    text-align: center; /* centrar todo*/
+}
+
+
+/*parrafo*/
+p{ 
+    font-size: xx-large; /* fuente*/
+    padding: 15%;  /* relleno espacio entre el parrafo y los btones */
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#sibutton{
+   transform: translate(-100%,0); 
+}
+
+#nonutton{
+    position: absolute;
+}
